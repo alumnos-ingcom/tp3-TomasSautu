@@ -11,9 +11,9 @@ Obtené el archivo grepdata.txt. Puede guardar el archivo en su sistema local o 
 Una vez que tenga el archivo, escriba una serie de instrucciones `grep` que hagan lo siguiente:
 
 1. Imprima todas las líneas que contengan un número de teléfono con una extensión (la letra x o X seguida de cuatro dígitos).
-2. Imprima todas las líneas que comiencen con tres dígitos seguidos de un espacio en blanco. Su respuesta debe usar el especificador de repetición `\{`y `\}`.
+2. Imprima todas las líneas que comiencen con tres dígitos seguidos de un espacio en blanco. Su respuesta debe usar el especificador de repetición `{`y `}`.
 3. Imprime todas las líneas que contienen una fecha. Pista: este es un patrón muy simple. No tiene que funcionar con ningún año antes del 2000.
-4. Imprime todas las líneas que contienen una vocal (a, e, i, o o u) seguidas de un solo carácter seguido de la misma vocal nuevamente. Por lo tanto, encontrará "eve" o "adam" pero no "vera". Pista: `\(`y `\)`
+4. Imprime todas las líneas que contienen una vocal (a, e, i, o o u) seguidas de un solo carácter seguido de la misma vocal nuevamente. Por lo tanto, encontrará "eve" o "adam" pero no "vera". Pista: `(`y `)`
 5. Imprima todas las líneas que no comiencen con una S mayúscula.
 6. Imprima todas las lineas que contengan una dirección de correo electrónica (solo considerar palabras que contengan un `@`)
 
